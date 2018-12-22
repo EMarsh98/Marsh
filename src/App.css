@@ -1,1 +1,14 @@
+#main{
+	padding:10px;
+	height:800px;
+}
 
+.nav li{
+	font-size:20px;
+	margin-top:20px;
+	transition: all 0.2s;
+}
+
+.nav .select{
+	font-size:25px;
+}
