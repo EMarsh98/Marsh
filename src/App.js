@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Route, Link, Switch} from 'react-router-dom';
+import {Route, Link} from 'react-router-dom';
 import './App.css';
 
 function About(){
@@ -16,6 +16,13 @@ function About(){
 			
 				<h3>EthanMarsh@mail.com</h3>
 				<h3>(902) 565 2740</h3>
+				
+				<div id="social" className="flex-row">
+					<h5>Social Media</h5>
+					<a href="https://www.facebook.com/ethan.marsh.54" className="btn btn-social btn-facebook"><i className="fab fa-facebook"></i> Facebook</a>
+					<a href="https://www.linkedin.com/in/ethan-marsh-00980a171/" className="btn btn-social btn-linkedin"><i className="fab fa-linkedin"></i> Linkedin</a>
+					<a href="https://github.com/EMarsh98/" className="btn btn-social btn-github"><i className="fab fa-github"></i> GitHub</a>
+				</div>
 			</div>
 		</div>
 		</div>
@@ -27,7 +34,7 @@ function FoodBank(){
 		<div className="container">
 		<div className="row">
 			<div className="col">
-				<img id="gbfbIMG" src="http://glacebayfoodbank.seaside.ns.ca/wp-content/gallery/gallery/IMG_0031.jpg" />
+				<img id="gbfbIMG" src="http://glacebayfoodbank.seaside.ns.ca/wp-content/gallery/gallery/IMG_0031.jpg" alt=""/>
 			</div>
 		</div>
 		<div className="row">
