@@ -4,11 +4,23 @@
 }
 
 .nav li{
+	color:white;
 	font-size:20px;
 	margin-top:20px;
 	transition: all 0.2s;
 }
 
+.nav li:hover{
+	color:white;
+}
+
 .nav .select{
 	font-size:25px;
 }
+
+#gbfbIMG{
+	width:525px;
+	height:350px;
+}
+
+
